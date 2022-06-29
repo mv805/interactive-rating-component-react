@@ -1,0 +1,97 @@
+:root {
+    --card-background-color: hsl(208, 20%, 13%);
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+.card {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    color: var(--white);
+    width: 95vw;
+    height: 95vw;
+    max-width: 400px;
+    max-height: 400px;
+    min-height: 250px;
+    min-width: 250px;
+    background: rgb(27, 34, 32);
+    background: linear-gradient(3deg, rgba(30, 39, 39, 0.486) 0%, rgba(36, 52, 66, 0.514) 65%);
+    border-radius: 1.5rem;
+    padding: 1.25rem;
+}
+
+
+
+.thank-you-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card p {
+    color: var(--medium-grey);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.card h1 {
+    margin: 0;
+}
+
+.star-icon {
+    background-color: var(--dark-blue);
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.submit-button {
+    background-color: var(--orange);
+    font-size: inherit;
+    border: none;
+    font-family: inherit;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    height: 14%;
+    border-radius: 50px;
+}
+
+.submit-button:hover {
+    background-color: hsl(25, 100%, 62%);
+    color: var(--white);
+}
+
+.submit-button:active {
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.rating-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.selected-result {
+    color: var(--orange);
+    background-color: var(--dark-blue);
+    height: 2.5rem;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.thank-you-card p {
+    text-align: center;
+}
