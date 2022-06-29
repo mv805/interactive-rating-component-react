@@ -68,6 +68,7 @@
 .submit-button:hover {
     background-color: hsl(25, 100%, 62%);
     color: var(--white);
+    cursor: pointer;
 }
 
 .submit-button:active {

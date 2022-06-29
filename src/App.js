@@ -5,6 +5,7 @@ import ThankYouCard from './ThankYouCard';
 
 function App() {
 
+  const version = '1.0.1';
   const [selectedRating, setSelectedRating] = useState('');
 
   if (selectedRating !== '') {
@@ -16,7 +17,7 @@ function App() {
         </div>
         <div className={ styles.attribution }>
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
-          Coded by <a href="https://github.com/mv805">Matt Villa</a><span>V 1.0.0</span>
+          Coded by <a href="https://github.com/mv805">Matt Villa</a><span>V {version}</span>
         </div>
       </div>
 
@@ -32,7 +33,7 @@ function App() {
       </div>
       <div className={ styles.attribution }>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
-        Coded by <a href="https://github.com/mv805">Matt Villa</a><span>V 1.0.0</span>
+        Coded by <a href="https://github.com/mv805">Matt Villa</a><span>V {version}</span>
       </div>
     </div>
   );
